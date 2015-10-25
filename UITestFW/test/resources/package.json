@@ -4,15 +4,12 @@
   "version": "1.0.0",
   "description": "UITesting Framework",
   "dependencies": {
-    "phantomjs": "^1.9.18",
+    "axe-webdriverjs": "^0.2.0",
     "grunt": "^0.4.5",
     "grunt-concurrent": "^2.0.3",
     "grunt-contrib-jshint": "^0.11.3",
     "grunt-karma": "^0.12.1",
     "grunt-protractor-runner": "^1.2.1",
-    "protractor": "^1.8.0",
-    "protractor-html-screenshot-reporter": "^0.0.21",
-    "protractor-screenshot-reporter": "^0.0.5",
     "jasmine-core": "^2.3.4",
     "jshint-junit-reporter": "^0.2.2",
     "jshint-stylish": "^2.0.1",
@@ -27,7 +24,12 @@
     "karma-junit-reporter": "^0.3.7",
     "karma-safari-launcher": "^0.1.1",
     "load-grunt-tasks": "^3.3.0",
-    "selenium-standalone": "^4.7.0",
+    "phantomjs": "^1.9.18",
+    "protractor": "^1.8.0",
+    "protractor-html-screenshot-reporter": "^0.0.21",
+    "protractor-screenshot-reporter": "^0.0.5",
+    "selenium-standalone": "^4.7.1",
+    "selenium-webdriver": "^2.48.0",
     "time-grunt": "^1.2.1"
   }
 }
