@@ -1,4 +1,5 @@
 'use strict';
+var AxeBuilder = require('../../resources/node_modules/axe-webdriverjs');
 
 describe('E2E Test - Home:', function(){
 
@@ -41,6 +42,13 @@ describe('E2E Test - Home:', function(){
             });
 
         });
+    });
+
+    it('Should be accessible', function () {
+        AxeBuilder(browser.driver)
+            .analyze(function (results) {
+                expect(results.violations.length).toBe(0);
+            });
     });
 
 });
